@@ -1,16 +1,14 @@
-# images
+# What
 
-A new Flutter project.
+Test storing image using cache feature
 
-## Getting Started
+One keep taken from network, the second is cached.
+Restart the application to see the magie !
 
-This project is a starting point for a Flutter application.
+The images are accessible from `user's data` directory instead of temporary directory (I have used `getExternalStorageDirectory` instead of `getTemporaryDirectory`)
 
-A few resources to get you started if this is your first Flutter project:
+![image cached](image_cached.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Resources
+> https://stackoverflow.com/a/66950665/2570225
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
